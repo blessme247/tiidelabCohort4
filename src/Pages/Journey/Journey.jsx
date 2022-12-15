@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import Footer from '../../Components/FooterComponent/Footer'
-import NavBar from '../../Components/NavBarComponent/NavBar'
 import Header from './Header'
 import Highlights from './Highlights'
 import MobileHighlights from './MobileHighlights'

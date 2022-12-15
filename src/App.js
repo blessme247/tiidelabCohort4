@@ -1,13 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
-import React, { useEffect, useState } from "react";
+import React from "react";
 // import axios from 'axios'
 import './Body.module.css'
 
 import './App.css';
 
 
-// import 'react-toastify/dist/ReactToastify.css';
-import NavBar from './Components/NavBarComponent/NavBar';
 import Homepage from './Pages/HomePage/HomePage';
 import Journey from './Pages/Journey/Journey';
 

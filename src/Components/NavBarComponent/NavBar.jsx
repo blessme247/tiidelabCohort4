@@ -3,7 +3,6 @@ import React from 'react'
 import styles from "./navbar.module.css";
 import tiideLabLogo from '../../ASSETS/images/tiidelabLogo.png'
 import { Link } from 'react-router-dom'
-import {  FaBars, FaTimes } from 'react-icons/fa'
 import NavigationDesktop from './NavigationDesktop';
 
 

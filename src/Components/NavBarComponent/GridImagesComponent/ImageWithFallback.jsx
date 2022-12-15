@@ -210,7 +210,7 @@ const ImageWithFallback = () => {
             data-aos-easing="ease-in" className={styles.pictureWrapper}>
         <picture key={index} className={styles.picture}>
         <source className={styles.webPimage} sizes="(max-width: 196px) 100vw, 16px" loading="lazy" srcSet={fellowPicture.src} type={fellowPicture.type} />
-        <img className={styles.jpegImage} sizes="(max-width: 196px) 100vw, 196px" loading="lazy" src={fellowPicture.fallback} />
+        <img className={styles.jpegImage} sizes="(max-width: 196px) 100vw, 196px" loading="lazy" src={fellowPicture.fallback} alt="Fellow" />
       </picture>
       </div>
        )

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 // import styles from "../navbar.module.css";
 import styles from "../../Components/NavBarComponent/navbar.module.css";
 import tiideLabLogo from '../../ASSETS/images/tiidelabLogo.png'
