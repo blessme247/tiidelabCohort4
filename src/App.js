@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+// import axios from 'axios'
+import './Body.module.css'
+
 import './App.css';
 
+
+// import 'react-toastify/dist/ReactToastify.css';
+import NavBar from './Components/NavBarComponent/NavBar';
+import Homepage from './Pages/HomePage/HomePage';
+import Journey from './Pages/Journey/Journey';
+
 function App() {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment >
+    {/* <ToastContainer /> */}
+    <Routes>
+      {/* <Route path="/" element={<TodoList fetchTodos={fetchTodos} isLoading={isLoading} todos={todos} settodos={setTodos} />} />
+      <Route path="/:todo_id" element = {<TodoDetails  todos={todos}/>} />
+      <Route path="/playground" element={<PlayGroundForm />} />
+      <Route path="/login" element={<FormikLogin />} /> */}
+      <Route path="/" element={<Homepage />} />
+      <Route path="/journey" element={<Journey />} />
+      
+    </Routes>
+    </React.Fragment>
   );
+  
 }
 
 export default App;
+

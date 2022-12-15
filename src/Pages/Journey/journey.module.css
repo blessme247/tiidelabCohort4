@@ -1,0 +1,248 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)),
+    url(../../ASSETS/images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.logoWrapper {
+    background-color: #E6E6E6;
+    padding: 0.5rem;
+    width: fit-content;
+    /* margin: 0 auto; */
+}
+
+.link {
+  color: #E6E6E6;
+  font-weight: 600;
+}
+
+.secondLink {
+  color: #ffe369 ;
+}
+
+.nav {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;
+}
+
+.navAside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list + .list {
+  margin-left: 2rem;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroText {
+ display: flex;
+ align-items: center;
+ height: 400px;
+ justify-content: center;
+ font-size: 2.8rem;
+ color: #e6e6e6;
+ font-weight: 700;
+ flex-direction: column;
+ margin-top: 4rem;
+}
+
+
+.yellowText {
+  color: #ffe369;
+}
+
+.sectionTop {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  color: #ffe369;
+}
+
+.contentTop {
+  color: #ffe369;
+  margin-bottom: 0.8rem;
+}
+
+.leftContent {
+  text-align: right;
+}
+.leftContentTop {
+  text-align: right;
+
+}
+
+.rightContentTop {
+  text-align: left;
+}
+
+.paragraph {
+  color: #e6e6e6;
+  line-height: 1.8;
+}
+
+
+.highlightSection {
+  background-color:  #0b0f12;
+  padding: 3rem 0;
+  color: #e6e6e6;
+}
+
+.mobileHighlightSection {
+  display: none;
+}
+
+.mainHighlights {
+  display: grid;
+    grid-template-columns: 1fr 7px 1fr;
+    grid-column-gap: 35px;
+    padding: 100px 0;
+}
+
+.line {
+  width: 7px;
+  background-color: #ffe369;
+}
+
+.firstRightContent {
+  margin-top: 200px;
+}
+.secondLeftContent {
+  margin-top: 300px;
+}
+
+.secondRightContent {
+  margin-top: 300px;
+}
+
+.thirdLeftContent {
+  margin-top: 320px;
+}
+
+.thirdRightContent {
+  margin-top: 320px;
+}
+
+.projectSection {
+  background-color: #ffe369;
+  padding: 3rem 0;
+}
+
+.projectSectionHead {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.projectsGridLayout {
+  padding: 0 .5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+}
+
+.projectCard {
+  background-color: #0b0f12;
+  padding: 1.5rem 1rem;
+  color: #e6e6e6;
+  border-radius: 3px;
+}
+
+.projectName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+.projectLinkWrapper {
+  margin-top: 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.teamName {
+  margin-top: 1rem;
+}
+
+.projectLink {
+  color: #e6e6e6;
+  font-style: italic;
+  transition: 0.2s ease-in-out;
+  font-size: 14px;
+}
+
+.projectLinkWrapper:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .heroTextHead {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 780px) {
+  .heroText {
+    font-size: 1.8rem;
+  }
+
+  .highlightSection {
+    display: none;
+  }
+
+  .mobileSectionTop {
+      font-size: 1.6rem;
+      text-align: center;
+      font-weight: 600;
+      color: #ffe369;
+    }
+    .mobileHighlights {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 3rem;
+      
+    }
+
+    .mobileHighlightSection {
+      display: flex;
+      background-color: #0b0f12;
+      padding: 3rem 0;
+    }
+
+    .mobileContent {
+      width: 100%;
+    }
+
+    .secondContent , .fourthContent, .sixthContent {
+      text-align: right;
+    }
+
+    .fourthContent, .fifthContent, .sixthContent {
+      margin-top: 1rem;
+    }
+  
+}
