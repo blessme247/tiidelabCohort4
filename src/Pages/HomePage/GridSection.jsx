@@ -9,7 +9,7 @@ const GridSection = () => {
     <div>
       <section className={`${styles.gridSection} ${styles.container}`}>
         <div
-          data-aos="fade-up-left"
+          data-aos="fade-up"
           data-aos-duration="1500"
           data-aos-easing="ease-in"
           className={styles.sectionHead}

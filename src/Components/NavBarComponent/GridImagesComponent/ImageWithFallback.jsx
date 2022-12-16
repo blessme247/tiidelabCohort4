@@ -108,6 +108,23 @@ import AdesolaWebP from "../../../ASSETS/images/AdesolaWebP.webp";
 import RaymondJPEG from "../../../ASSETS/images/RaymondJPEG.jpeg";
 import RaymondWebP from "../../../ASSETS/images/RaymondWebP.webp";
 
+import fellows1JPG from "../../../ASSETS/images/fellows1JPG.jpg";
+import fellows1WebP from "../../../ASSETS/images/fellows1WebP.webp";
+import fellows2JPG from "../../../ASSETS/images/fellows2JPG.jpg";
+import fellows2WebP from "../../../ASSETS/images/fellows2WebP.webp";
+import fellows3JPG from "../../../ASSETS/images/fellows3JPG.jpg";
+import fellows3WebP from "../../../ASSETS/images/fellows3WebP.webp";
+import fellows4JPG from "../../../ASSETS/images/fellows4JPG.jpg";
+import fellows4WebP from "../../../ASSETS/images/fellows4WebP.webp";
+import fellows5JPG from "../../../ASSETS/images/fellows5JPG.jpg";
+import fellows5WebP from "../../../ASSETS/images/fellows5WebP.webp";
+import fellows6JPG from "../../../ASSETS/images/fellows6JPG.jpg";
+import fellows6WebP from "../../../ASSETS/images/fellows6WebP.webp";
+import fellows7JPG from "../../../ASSETS/images/fellows7JPG.jpg";
+import fellows7WebP from "../../../ASSETS/images/fellows7WebP.webp";
+
+
+
 
 const ImageWithFallback = () => {
     // {src,fallback,type = "image/webp",...delegated}
@@ -200,6 +217,14 @@ const ImageWithFallback = () => {
     { src: UdemeWebP, fallback: UdemeJPEG, type: "image/webp",  },
     { src: WilsonWebP, fallback: WilsonJPG, type: "image/webp",  },
     { src: YusufWebP, fallback: YusufJPEG, type: "image/webp",  },
+    { src: fellows1WebP, fallback: fellows1JPG, type: "image/webp",  },
+    { src: fellows2WebP, fallback: fellows2JPG, type: "image/webp",  },
+    { src: fellows3WebP, fallback: fellows3JPG, type: "image/webp",  },
+    { src: fellows4WebP, fallback: fellows4JPG, type: "image/webp",  },
+    { src: fellows5WebP, fallback: fellows5JPG, type: "image/webp",  },
+    { src: fellows6WebP, fallback: fellows6JPG, type: "image/webp",  },
+    { src: fellows7WebP, fallback: fellows7JPG, type: "image/webp",  },
+    { src: fellows3WebP, fallback: fellows3JPG, type: "image/webp",  },
   ];
   return (
 

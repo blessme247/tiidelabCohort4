@@ -241,8 +241,12 @@
       text-align: right;
     }
 
-    .fourthContent, .fifthContent, .sixthContent {
+    .fourthContent, .fifthContent {
       margin-top: 1rem;
+    }
+
+    .sixthContent {
+      margin-top: 1.8rem;
     }
   
 }

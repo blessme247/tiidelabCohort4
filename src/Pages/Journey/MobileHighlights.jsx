@@ -31,10 +31,28 @@ const MobileHighlights = () => {
           </div>
 
           <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-back"
+          className={`${styles.secondContent} ${styles.mobileContent} `}
+        >
+          <h2 className={`${styles.contentTop} `}>The Beginning</h2>
+          <p className={`${styles.paragraph} `}>
+            Tiidelab Cohort 4 fellowship commenced officially on the 8th, June
+            2022 with 62 fellows admitted after going through three rigorous
+            application phases. Fellows were admitted from all six geo-political
+            zones of Nigeria in order to fulfill the goals and objective of
+            NECA-ITF TSDP project, which is to promote training and development
+            of Nigerian youths.
+          </p>
+        </div>
+
+
+          <div
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-easing="ease-in-back"
-            className={`${styles.secondContent} ${styles.mobileContent}`}
+            className={`${styles.thirdContent} ${styles.mobileContent}`}
           >
             <h2 className={`${styles.contentTop} `}>Technical Skills</h2>
             <p className={`${styles.paragraph} `}>
@@ -47,11 +65,29 @@ const MobileHighlights = () => {
               and projects were assigned to each team.
             </p>
           </div>
+
+          <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-back"
+          className={`${styles.fourthContent} ${styles.mobileContent} `}
+        >
+          <h2 className={`${styles.contentTop}`}>Soft Skills</h2>
+          <p className={`${styles.paragraph}`}>
+            In the words of the program coordinator, Mr. Shamshudeen, "a
+            software developer is not complete without soft skills." In order to
+            ensure that fellows are complete problem solvers, soft skills were
+            taught on Fridays, covering different topics such as problem
+            framing, design thinking, effective coomunication, e.t.c. Some of
+            the classes were physical and they helped to foster bonding among
+            the fellows.
+          </p>
+        </div>
           <div
             data-aos="fade-up"
             data-aos-duration="2000"
             data-aos-easing="ease-in-back"
-            className={`${styles.thirdContent} ${styles.mobileContent} `}
+            className={`${styles.fifthContent} ${styles.mobileContent} `}
           >
             <h2 className={`${styles.contentTop} `}>Brown Bags</h2>
             <p className={`${styles.paragraph}`}>
@@ -67,40 +103,6 @@ const MobileHighlights = () => {
           </div>
         </div>
 
-        <div
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-easing="ease-in-back"
-          className={`${styles.fourthContent} ${styles.mobileContent} `}
-        >
-          <h2 className={`${styles.contentTop} `}>The Beginning</h2>
-          <p className={`${styles.paragraph} `}>
-            Tiidelab Cohort 4 fellowship commenced officially on the 8th, June
-            2022 with 62 fellows admitted after going through three rigorous
-            application phases. Fellows were admitted from all six geo-political
-            zones of Nigeria in order to fulfill the goals and objective of
-            NECA-ITF TSDP project, which is to promote training and development
-            of Nigerian youths.
-          </p>
-        </div>
-
-        <div
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-easing="ease-in-back"
-          className={`${styles.fifthContent} ${styles.mobileContent} `}
-        >
-          <h2 className={`${styles.contentTop}`}>Soft Skills</h2>
-          <p className={`${styles.paragraph}`}>
-            In the words of the program coordinator, Mr. Shamshudeen, "a
-            software developer is not complete without soft skills." In order to
-            ensure that fellows are complete problem solvers, soft skills were
-            taught on Fridays, covering different topics such as problem
-            framing, design thinking, effective coomunication, e.t.c. Some of
-            the classes were physical and they helped to foster bonding among
-            the fellows.
-          </p>
-        </div>
 
         <div
           data-aos="fade-up"
