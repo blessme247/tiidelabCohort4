@@ -3,6 +3,8 @@ gsap.registerPlugin(CSSPlugin, Expo);
 
 export const RevealAnimation = (setComplete)=> {
 
+        const c = CSSPlugin;
+
         const tl = gsap.timeline({
           delay: 0.8,
           onComplete: () => {

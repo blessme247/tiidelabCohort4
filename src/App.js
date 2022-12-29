@@ -8,11 +8,8 @@ import  './preloader.css'
 import Homepage from './Pages/HomePage/HomePage';
 import Journey from './Pages/Journey/Journey';
 
-//GSAP imports
-import {gsap, CSSPlugin, Expo} from 'gsap'
-// import { Timeline } from 'gsap/gsap-core';
+
 import { RevealAnimation } from './Components/Animations';
-// gsap.registerPlugin(CSSPlugin);
 
 function App() {
 
@@ -28,7 +25,7 @@ function App() {
         } else {
           clearInterval(count)
           setCounter(100)
-          useState(RevealAnimation(setComplete))
+          RevealAnimation(setComplete)
         }
             
     })
