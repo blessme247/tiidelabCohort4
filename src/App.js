@@ -28,7 +28,7 @@ function App() {
         } else {
           clearInterval(count)
           setCounter(100)
-          RevealAnimation(setComplete)
+          useState(RevealAnimation(setComplete))
         }
             
     })
