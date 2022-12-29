@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import Footer from '../../Components/FooterComponent/Footer'
 import NavBar from '../../Components/NavBarComponent/NavBar'
+import '../../preloader.css'
 
 import GridSection from './GridSection'
 import HeroSection from './HeroSection'
@@ -17,7 +18,7 @@ function Homepage() {
   }, [])
 
   return (
-    <>
+    <div >
  
         <NavBar />
       <HeroSection />
@@ -27,7 +28,7 @@ function Homepage() {
       <TestimonialSection />
 
       <Footer />
-    </>
+    </div>
   )
 }
 
