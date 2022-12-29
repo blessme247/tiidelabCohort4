@@ -10,16 +10,15 @@ import Journey from './Pages/Journey/Journey';
 
 //GSAP imports
 import {gsap, CSSPlugin, Expo} from 'gsap'
-import { Timeline } from 'gsap/gsap-core';
+// import { Timeline } from 'gsap/gsap-core';
 import { RevealAnimation } from './Components/Animations';
+// gsap.registerPlugin(CSSPlugin);
 
 function App() {
 
   let main = useRef(null)
-  gsap.registerPlugin(CSSPlugin);
   const [counter, setCounter] = useState(0);
   const [complete, setComplete] = useState(false);
-  let c = counter;
 
   useEffect(()=>{
     const count = setInterval(()=>{
@@ -33,7 +32,7 @@ function App() {
         }
             
     })
-    },30)
+    },300)
   }, [])
 
 
