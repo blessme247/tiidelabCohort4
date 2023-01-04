@@ -1,12 +1,12 @@
 import {gsap, CSSPlugin, Expo} from 'gsap'
 gsap.registerPlugin(CSSPlugin, Expo);
 
-export const RevealAnimation = (setComplete)=> {
+export const RevealAnimation = (setComplete, main)=> {
 
-        const c = CSSPlugin;
-
+    const ctx = gsap.context(()=>{
+              
         const tl = gsap.timeline({
-          delay: 0.8,
+        //   delay: 0.8,
           onComplete: () => {
             setComplete(true)
           }
@@ -38,5 +38,9 @@ export const RevealAnimation = (setComplete)=> {
           duration:0.5,
           ease: Expo.easeInOut,
         })
+
+    },main)
+
+    return () => ctx.revert();
 
 }

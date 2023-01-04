@@ -18,6 +18,7 @@ function App() {
   const [complete, setComplete] = useState(false);
 
   useEffect(()=>{
+    console.log("useEffect")
     const count = setInterval(()=>{
       setCounter(counter=> {
         if(counter < 100) {
@@ -25,12 +26,23 @@ function App() {
         } else {
           clearInterval(count)
           setCounter(100)
-          RevealAnimation(setComplete)
         }
             
     })
     },300)
   }, [])
+
+  useLayoutEffect(() => {
+    console.log("layout effect")
+    if(counter === 100) {
+      RevealAnimation(setComplete, main)
+    }
+  
+    // return () => {
+    //   //Kill the animation to avoid multiple animations and memory leak..
+    //   ctx.revert()
+    // };
+  }, [counter])
 
 
   
