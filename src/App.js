@@ -17,31 +17,27 @@ function App() {
   const [counter, setCounter] = useState(0);
   const [complete, setComplete] = useState(false);
 
-  useEffect(()=>{
-    console.log("useEffect")
-    const count = setInterval(()=>{
-      setCounter(counter=> {
-        if(counter < 100) {
-          setCounter(counter => counter + 1)
+  useEffect(() => {
+    const count = setInterval(() => {
+      setCounter(counter => {
+        if (counter < 100) {
+          return counter + 1;
         } else {
-          clearInterval(count)
-          setCounter(100)
+          clearInterval(count);
+          return 100;
         }
-            
-    })
-    },300)
-  }, [])
+      });
+    }, 30);
+  
+    return () => clearInterval(count);
+  }, []);
+  
 
   useLayoutEffect(() => {
-    console.log("layout effect")
     if(counter === 100) {
       RevealAnimation(setComplete, main)
     }
   
-    // return () => {
-    //   //Kill the animation to avoid multiple animations and memory leak..
-    //   ctx.revert()
-    // };
   }, [counter])
 
 
@@ -65,4 +61,8 @@ function App() {
 }
 
 export default App;
+
+//In the useEffect code above, we're returning a cleanup function that clears the interval when the component unmounts. 
+// We're also using an empty array as the second argument to the useEffect hook, which ensures that the effect runs only once when the component mounts.
+// By updating the state variable counter directly inside the setInterval function and removing the console.log statement, the progress bar should update as the counter variable updates.
 

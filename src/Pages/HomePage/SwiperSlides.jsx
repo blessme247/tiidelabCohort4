@@ -47,12 +47,7 @@ const SwiperSlides = () => {
       >
         <div className={styles.swiperWrapper}>
           <SwiperSlide className={styles.testimonialCard}>
-          {/* <div className={styles.testimonialPictureWrapper}>
-          <picture className={styles.testimonialPictureCard}>
-        <source className={styles.webPTestimonialImage}  loading="lazy" srcSet={VictorWebP} type={"image/webp"}/>
-        <img className={styles.jpegTestimonailImage}  loading="lazy" src={VictorJPEG} />
-      </picture>
-      </div> */}
+       
             
       <p className={styles.testimonialText}>
               For the past 6 months, Tiidelab gave me a well structured plan to live, learn and become self reliant with, I am glad to have been a beneficiary.
@@ -64,12 +59,7 @@ const SwiperSlides = () => {
 
           <SwiperSlide className={styles.testimonialCard}>
             
-            {/* <div className={styles.testimonialPictureWrapper}>
-          <picture className={styles.testimonialPictureCard}>
-        <source className={styles.webPTestimonialImage}  loading="lazy" srcSet={GodswilWebP} type={"image/webp"} />
-        <img className={styles.jpegTestimonailImage}  loading="lazy" src={GodswillJPEG} />
-      </picture>
-      </div> */}
+            
       <p className={styles.testimonialText}>
               Tiidelab came in at the right time and not only did the program help shape my technical skills, but also my communication and leadership skills.
             </p>
@@ -87,12 +77,7 @@ const SwiperSlides = () => {
           </SwiperSlide>
 
           <SwiperSlide className={styles.testimonialCard}>
-          {/* <div className={styles.testimonialPictureWrapper}>
-          <picture className={styles.testimonialPictureCard}>
-        <source className={styles.webPTestimonialImage}  loading="lazy" srcSet={TosinWebP} type={"image/webp"}/>
-        <img className={styles.jpegTestimonailImage}  loading="lazy" src={TosinJPG} />
-      </picture>
-      </div> */}
+          
             
       <p className={styles.testimonialText}>
               While I was affected by the nationwide ASUU strike and I could not be in school, Tiidelab gave me the opportunity to learn and be productive.
@@ -101,12 +86,7 @@ const SwiperSlides = () => {
           </SwiperSlide>
 
           <SwiperSlide className={styles.testimonialCard}>
-          {/* <div className={styles.testimonialPictureWrapper}>
-          <picture className={styles.testimonialPictureCard}>
-        <source className={styles.webPTestimonialImage} loading="lazy" srcSet={BongshimWebP} type={"image/webp"}/>
-        <img className={styles.jpegTestimonailImage}  loading="lazy" src={BongshimJPEG} />
-      </picture>
-      </div> */}
+         
             
       <p className={styles.testimonialText}>
               I feel blessed to have met a lot of good people during the fellowship and I look forward to seeing everyone thrive in life. Best wishes to everyone! 
@@ -116,12 +96,7 @@ const SwiperSlides = () => {
 
           <SwiperSlide className={styles.testimonialCard}>
             
-          {/* <div className={styles.testimonialPictureWrapper}>
-          <picture className={styles.testimonialPictureCard}>
-        <source className={styles.webPTestimonialImage}  loading="lazy" srcSet={CynthiaWebP} type={"image/webp"} />
-        <img className={styles.jpegTestimonailImage}  loading="lazy" src={CynthiaJPEG} />
-      </picture>
-      </div> */}
+         
             <p className={styles.testimonialText}>
               A journey of 6 months has finally come to an end but not without me honing my skills and creating long lasting memories that I will always cherish. 
             </p>
